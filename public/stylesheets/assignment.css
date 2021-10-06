@@ -1,0 +1,40 @@
+header,nav{
+  height:80px;
+}
+
+
+
+ul,li{
+  list-style: none;
+  margin:0;
+  padding:0;
+}
+
+ul{
+  height:100%;
+  position:relative;
+}
+li{
+  position:absolute;
+}
+
+li:nth-child(1){
+ top:30px;
+  left:20px;
+}
+
+li:nth-child(2){
+ top:30px;
+  right: 180px;
+}
+
+
+li:nth-child(3){
+ top:30px;
+  right: 100px;
+}
+
+li:nth-child(4){
+  top:30px;
+  right: 20px;
+}
